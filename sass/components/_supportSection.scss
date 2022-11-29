@@ -1,0 +1,54 @@
+.support-section {
+  @include section($pb: 40px);
+  position: relative;
+}
+
+.support-section__sibtitle {
+  @include subtitle1;
+  margin-bottom: 10px;
+}
+
+.support-section__title {
+  @include title2($lh: 26px);
+  margin-bottom: 15px;
+}
+
+.support-section__text {
+  width: 235px;
+  margin: 0 auto 60px;
+}
+
+.support-section__icon {
+  position: absolute;
+  top: 139px;
+  left: 225px;
+}
+
+.questions-list {
+  @extend %flex;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  row-gap: 15px;
+
+  margin-bottom: 40px;
+}
+
+.questions-list__button {
+  padding: 9px 15px;
+
+  font-weight: 500;
+  line-height: inherit;
+  letter-spacing: 0.02em;
+
+  border: 1px solid $accent-color;
+  border-radius: 40px;
+  color: $accent-color;
+  background-color: transparent;
+}
+
+.questions-list__button--accent-color {
+  font-weight: 600;
+
+  color: $white-color;
+  background-color: $accent-color;
+}

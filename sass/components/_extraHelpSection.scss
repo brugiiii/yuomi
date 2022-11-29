@@ -1,0 +1,46 @@
+.extra-help-section {
+  @include section($ta: left);
+  position: relative;
+  padding-top: 20px;
+}
+
+.extra-help-section__icon {
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+
+.extra-help-section__thumb {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.extra-help-section__title {
+  @include title1($fz: 18px, $lh: 23px);
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.extra-help-section__text {
+  margin-bottom: 30px;
+}
+
+.extra-help-section__span {
+  font-weight: 600;
+}
+
+.help-numbers-list__item {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.help-numbers-list__number {
+  @include headline2($lh: 22px, $ls: 0.01em);
+  margin-bottom: 8px;
+}
+
+.help-numbers-list__text {
+  margin-bottom: 0;
+}

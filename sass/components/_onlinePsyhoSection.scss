@@ -1,0 +1,40 @@
+.online-psyho-section {
+  @include section($pb: 45px);
+}
+
+.online-psyho-section__title {
+  @include title2;
+  margin-bottom: 30px;
+}
+
+.online-psyho-section__image {
+  margin: 0 auto;
+}
+
+.online-psyho-section__headline {
+  @include headline2;
+  margin-bottom: 8px;
+}
+
+.online-psyho-section__text {
+  margin-bottom: 50px;
+}
+
+.filter-list {
+  @extend %flex;
+  gap: 30px;
+}
+
+.filter-list__button {
+  padding: 0;
+  width: 10px;
+  height: 10px;
+
+  border: none;
+  border-radius: 50%;
+  background-color: $shadow-color;
+
+  &:active {
+    background-color: $accent-color;
+  }
+}

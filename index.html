@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youmi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container header__container">
+        <a href="./index.html" class="logo link">
+          <svg class="logo__icon" width="100" height="26">
+            <use href="./images/sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <button
+          type="button"
+          class="menu-button js-close-menu"
+          aria-expanded="true"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu-button__icon" width="30" height="22">
+            <use href="./images/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">Вместе мы справимся</h1>
+          <p class="hero__text">Найдите своего психолога онлайн</p>
+          <button type="button" class="hero__button">Найти психолога</button>
+          <p class="hero__price-text">2770 руб. за 50 минут сессии</p>
+          <ul class="img-list list">
+            <li class="img-list__item">
+              <img src="./images/blobs.png" alt="бульбашки" />
+            </li>
+            <li class="img-list__item">
+              <img src="./images/illustration 1.png" alt="обійми" />
+            </li>
+          </ul>
+          <button class="support-button">
+            <svg class="support-button__icon" width="40" height="40">
+              <use href="./images/sprite.svg#icon-support-chat"></use>
+            </svg>
+          </button>
+        </div>
+      </section>
+      <section class="online-psyho-section">
+        <div class="container">
+          <h2 class="online-psyho-section__title">
+            Онлайн-психотерапия становится комфортнее
+          </h2>
+          <img
+            src="./images/planet.png"
+            alt="планета"
+            class="online-psyho-section__image"
+          />
+          <h3 class="online-psyho-section__headline">Свобода возможностей</h3>
+          <p class="online-psyho-section__text">
+            Проходите сессию из любой точки мира, не тратьте время на дорогу
+          </p>
+          <ul class="filter-list list">
+            <li class="filter-list__item">
+              <button type="button" class="filter-list__button"></button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="filter-list__button"></button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="filter-list__button"></button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="support-section">
+        <div class="container">
+          <p class="support-section__sibtitle">Вместе мы справимся</p>
+          <h2 class="support-section__title">В YouMi вы не одни</h2>
+          <p class="support-section__text">
+            Профессиональные психологи помогут разобрать вопросы, которые
+            вы не можете решить в одиночку:
+          </p>
+          <svg class="support-section__icon" width="72" height="66">
+            <use href="./images/sprite.svg#icon-noun-arrow"></use>
+          </svg>
+          <ul class="questions-list list">
+            <li class="questions-list__item">
+              <button class="questions-list__button">Апатия</button>
+            </li>
+            <li class="questions-list__item">
+              <button class="questions-list__button">Стрессы</button>
+            </li>
+            <li class="questions-list__item">
+              <button
+                class="questions-list__button questions-list__button--accent-color"
+              >
+                Неуверенность в себе
+              </button>
+            </li>
+            <li class="questions-list__item">
+              <button
+                class="questions-list__button questions-list__button--accent-color"
+              >
+                Чувство тревоги
+              </button>
+            </li>
+            <li class="questions-list__item">
+              <button class="questions-list__button">
+                Хроническая усталость
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="benefits-section">
+        <div class="container">
+          <p class="benefits-section__subtitle">Мы работаем только с</p>
+          <h2 class="benefits-section__title">
+            квалифицированными специалистами, которые прошли наш строгий отбор
+          </h2>
+          <svg class="benefits-section__icon" width="150" height="6">
+            <use href="./images/sprite.svg#icon-vector"></use>
+          </svg>
+          <p class="benefits-section__text">
+            Помимо серии собеседований и испытаний по разработанной нами
+            методологии, психологи предоставляют необходимые документы:
+          </p>
+          <div class="content-thumb">
+            <h3 class="content-thumb__title">Образование</h3>
+            <p class="content-thumb__text">
+              Диплом о высшем психологическом образовании и дополнительные
+              сертификаты
+            </p>
+          </div>
+          <ul class="filter-list list">
+            <li class="filter-list__item">
+              <button type="button" class="filter-list__button"></button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="filter-list__button"></button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="filter-list__button"></button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="filter-list__button"></button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="steps-section">
+        <div class="container">
+          <h2 class="steps-section__title">
+            Сделайте 4 шага навстречу психотерапии
+          </h2>
+          <ul class="steps-list list">
+            <li class="steps-list__item">
+              <svg class="steps-list__icon" width="50" height="50">
+                <use href="./images/sprite.svg#icon-spot1"></use>
+                <use href="./images/sprite.svg#icon-1"></use>
+              </svg>
+              <h3 class="steps-list__title">Заполните анкету,</h3>
+              <p class="steps-list__text">
+                ответив на 5 простых вопросов, определив тему и пожелания
+                по психологу.
+              </p>
+            </li>
+            <li class="steps-list__item">
+              <svg class="steps-list__icon" width="50" height="50">
+                <use href="./images/sprite.svg#icon-spot2"></use>
+                <use href="./images/sprite.svg#icon-2"></use>
+              </svg>
+              <h3 class="steps-list__title">Ознакомьтесь с профилями</h3>
+              <p class="steps-list__text">
+                специалистов и посмотрите видео-визитки. Выберите психолога
+                с которым вам будет комфортно.
+              </p>
+            </li>
+            <li class="steps-list__item">
+              <svg class="steps-list__icon" width="50" height="50">
+                <use href="./images/sprite.svg#icon-spot3"></use>
+                <use href="./images/sprite.svg#icon-3"></use>
+              </svg>
+              <h3 class="steps-list__title">Определите дату и время</h3>
+              <p class="steps-list__text">
+                первой сессии. Если у вас поменяются планы, вы сможете
+                ее отменить или перенести.
+              </p>
+            </li>
+            <li class="steps-list__item">
+              <svg class="steps-list__icon" width="50" height="50">
+                <use href="./images/sprite.svg#icon-spot4"></use>
+                <use href="./images/sprite.svg#icon-4"></use>
+              </svg>
+              <h3 class="steps-list__title">Пройдите тестирование</h3>
+              <p class="steps-list__text">
+                в личном кабинете для того, чтобы сделать первую сессию более
+                продуктивной.
+              </p>
+            </li>
+          </ul>
+          <svg class="steps-section__icon" width="50" height="50">
+            <use href="./images/sprite.svg#icon-calendar"></use>
+          </svg>
+          <p class="steps-section__remind-text">
+            Мы напомним вам о сессии за сутки и за час до начала
+          </p>
+          <button class="steps-section__button" type="button">
+            Сделать первый шаг
+          </button>
+        </div>
+      </section>
+      <section class="qna-section">
+        <div class="container">
+          <h2 class="qna-section__title">Вопросы - ответы</h2>
+          <ul class="qna-list list">
+            <li class="qna-list__item">
+              <h3 class="qna-list__title qna-list__title--mb8">
+                Эффективно ли работать с психологом онлайн?
+              </h3>
+              <svg
+                class="qna-list__icon qna-list__icon--top20"
+                width="30"
+                height="30"
+              >
+                <use href="./images/sprite.svg#icon-minus"></use>
+              </svg>
+              <p class="qna-list__text">
+                Да, эффективно и уже является стандартной практикой во всем
+                мире. <br />
+                За последние годы было проведено много научных исследований,
+                доказывающих, что данный формат не уступает по эффективности
+                традиционной очной психотерапии.
+              </p>
+            </li>
+            <li class="qna-list__item">
+              <h3 class="qna-list__title">Как выбрать специалиста?</h3>
+              <svg class="qna-list__icon" width="30" height="30">
+                <use href="./images/sprite.svg#icon-plus"></use>
+              </svg>
+            </li>
+            <li class="qna-list__item">
+              <h3 class="qna-list__title">
+                Как вы отбираете психологов в базу?
+              </h3>
+              <svg class="qna-list__icon" width="30" height="30">
+                <use href="./images/sprite.svg#icon-plus"></use>
+              </svg>
+            </li>
+          </ul>
+          <button class="qna-section__button" type="button">
+            Больше вопросов
+          </button>
+        </div>
+      </section>
+      <section class="care-section">
+        <div class="container">
+          <h2 class="care-section__title">
+            YouMi заботиться о вас даже вне сессий
+          </h2>
+          <p class="care-section__text">
+            Работая с YouMi от 4 сессий мы дарим доступ к приложению
+            с виртуальным психологом.
+          </p>
+          <ul class="care-list list">
+            <li class="care-list__item">
+              <svg class="care-list__icon" width="20" height="20">
+                <use href="./images/sprite.svg#icon-check-mark"></use>
+              </svg>
+              <p class="care-list__text">
+                Прорабатывайте себя с помощью упражнений и аудиопрактик
+              </p>
+            </li>
+            <li class="care-list__item">
+              <svg class="care-list__icon" width="20" height="20">
+                <use href="./images/sprite.svg#icon-check-mark"></use>
+              </svg>
+              <p class="care-list__text">
+                Ведите личный дневник настроения и получайте подробную
+                статистику о себе
+              </p>
+            </li>
+            <li class="care-list__item">
+              <svg class="care-list__icon" width="20" height="20">
+                <use href="./images/sprite.svg#icon-check-mark"></use>
+              </svg>
+              <p class="care-list__text">
+                Расскажите виртуальному психологу о своих чувствах и он подберет
+                актуальный материал
+              </p>
+            </li>
+          </ul>
+          <ul class="example-img-list list">
+            <li class="example-img-list__item">
+              <img src="./images/screen 1.jpg" alt="screen" />
+            </li>
+            <li class="example-img-list__item example-img-list__item--right">
+              <img src="./images/screen 2.jpg" alt="screen" />
+            </li>
+          </ul>
+          <button class="care-section__button" type="button">
+            Доступно в App Store
+          </button>
+        </div>
+      </section>
+      <section class="extra-help-section">
+        <div class="container">
+          <svg class="extra-help-section__icon" width="90" height="90">
+            <use href="./images/sprite.svg#icon-specialist"></use>
+          </svg>
+          <div class="extra-help-section__thumb">
+            <h2 class="extra-help-section__title">Экстренная помощь</h2>
+
+            <p class="extra-help-section__text">
+              Если вам необходима
+              <span class="extra-help-section__span"
+                >срочная психологическая помощь</span
+              >
+              и вы чувствуете, что не можете больше справиться самостоятельно,
+              обратитесь по одному из контактов ниже.
+            </p>
+            <ul class="help-numbers-list list">
+              <li class="help-numbers-list__item">
+                <p class="help-numbers-list__number">+7 495 989 50 50</p>
+                <p class="help-numbers-list__text">
+                  Центр экстренной психологической помощи МЧС России
+                </p>
+              </li>
+              <li class="help-numbers-list__item">
+                <p class="help-numbers-list__number">8 800 333 44 34</p>
+                <p class="help-numbers-list__text">
+                  Бесплатная кризисная линия доверия
+                </p>
+              </li>
+              <li class="help-numbers-list__item">
+                <p class="help-numbers-list__number">8 800 2000 122</p>
+                <p class="help-numbers-list__text">
+                  Всероссийская служба детского телефона доверия
+                </p>
+              </li>
+              <li class="help-numbers-list__item">
+                <p class="help-numbers-list__number">+7 499 173 09 09</p>
+                <p class="help-numbers-list__text">
+                  Московская служба психологической помощи населению
+                </p>
+              </li>
+              <li class="help-numbers-list__item">
+                <p class="help-numbers-list__number">8 800 700 06 00</p>
+                <p class="help-numbers-list__text">
+                  Всероссийский телефон доверия для женщин, пострадавших
+                  от домашнего насилия
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <a href="./index.html" class="logo footer__logo link"
+          ><svg class="logo__icon" width="100" height="26">
+            <use href="./images/sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="footer-nav list">
+          <li class="footer-nav__item">
+            <a href="" class="footer-nav__link link">О нас</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="" class="footer-nav__link link">Блог</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="" class="footer-nav__link link">Тарифы</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="" class="footer-nav__link link">Вопрос - ответ</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="" class="footer-nav__link link">Контакты</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="" class="footer-nav__link link">Психологам</a>
+          </li>
+        </ul>
+        <ul class="contacts-list list">
+          <li class="contacts-list__item">
+            <p class="contacts-list__title">Сотрудничество</p>
+            <p class="contacts-list__link">@youmiwork</p>
+          </li>
+          <li class="contacts-list__item">
+            <p class="contacts-list__title">Поддержка клиентов</p>
+            <p class="contacts-list__link">@youmi</p>
+          </li>
+        </ul>
+        <ul class="socials-list socials-list--mb40 list">
+          <li class="socials-list__item">
+            <a href="" class="socials-list__link link">
+              <svg class="socials-list__icon" width="40" height="40">
+                <use href="./images/sprite.svg#icon-vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials-list__item">
+            <a href="" class="socials-list__link link">
+              <svg class="socials-list__icon" width="40" height="40">
+                <use href="./images/sprite.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials-list__item">
+            <a href="" class="socials-list__link link">
+              <svg class="socials-list__icon" width="40" height="40">
+                <use href="./images/sprite.svg#icon-dzen"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <ul class="info-list list">
+          <li class="info-list__item">
+            <a href="" class="info-list__link">Обработка персональных данных</a>
+          </li>
+          <li class="info-list__item">
+            <a href="" class="info-list__link">Пользовательское соглашение</a>
+          </li>
+          <li class="info-list__item">
+            <a href="" class="info-list__link">Юридические документы</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="burger-menu-container">
+      <div class="burger-menu js-menu-container">
+        <button
+          type="burger-menu__button"
+          class="burger-menu__button js-open-menu"
+        >
+          <svg class="burger-menu__icon" width="24" height="24">
+            <use href="./images/sprite.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <ul class="nav-list list">
+          <li class="nav-list__item">
+            <a href="" class="nav-list__link link">О нас</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="" class="nav-list__link link">Тарифы</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="" class="nav-list__link link">Психологам</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="" class="nav-list__link link">Материалы</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="" class="nav-list__link link">Личный кабинет</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="" class="nav-list__link link">Вопросы-ответы</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="" class="nav-list__link link">Войти</a>
+          </li>
+        </ul>
+
+        <ul class="socials-list list">
+          <li class="socials-list__item">
+            <a href="" class="socials-list__link link">
+              <svg class="socials-list__icon" width="40" height="40">
+                <use href="./images/sprite.svg#icon-vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials-list__item">
+            <a href="" class="socials-list__link link">
+              <svg class="socials-list__icon" width="40" height="40">
+                <use href="./images/sprite.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials-list__item">
+            <a href="" class="socials-list__link link">
+              <svg class="socials-list__icon" width="40" height="40">
+                <use href="./images/sprite.svg#icon-dzen"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
+  </body>
+</html>

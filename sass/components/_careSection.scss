@@ -1,0 +1,54 @@
+.care-section {
+  @include section($ta: left);
+  padding-top: 40px;
+  position: relative;
+}
+
+.care-section__title {
+  @include title1($fz: 18px, $lh: 23px);
+  margin-bottom: 10px;
+}
+
+.care-section__text {
+  margin-bottom: 36px;
+  font-weight: 500;
+}
+
+.care-list {
+  margin-bottom: 387px;
+}
+
+.care-list__item {
+  display: flex;
+  gap: 20px;
+
+  &:not(:last-child) {
+    margin-bottom: 35px;
+  }
+}
+
+.care-list__icon {
+  margin-top: 5px;
+}
+
+.care-list__text {
+  width: 260px;
+  margin-bottom: 0;
+}
+
+.example-img-list__item {
+  position: absolute;
+  top: 477px;
+  left: 65px;
+}
+
+.example-img-list__item--right {
+  position: absolute;
+  top: 517px;
+  left: 170px;
+}
+
+.care-section__button {
+  @extend %mobile-button;
+  margin-bottom: 60px;
+}

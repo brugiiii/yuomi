@@ -1,0 +1,30 @@
+.hero {
+  padding: 47px 0 40px;
+  text-align: center;
+}
+
+.hero__text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: calc(34 / 24);
+  letter-spacing: 0.02em;
+
+  margin-bottom: 40px;
+}
+
+.hero__subtitle2 {
+  margin-bottom: 36px;
+}
+
+.img-list {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.support-button {
+  padding: 0;
+  display: block;
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+}

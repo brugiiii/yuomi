@@ -1,0 +1,41 @@
+.qna-section {
+  @include section($ta: left);
+}
+
+.qna-section__title {
+  @include title2($fz: 18px, $lh: 23px);
+  margin-bottom: 40px;
+
+  text-align: center;
+}
+
+.qna-list__item {
+  position: relative;
+  padding: 20px;
+}
+
+.qna-list__title {
+  @include subtitle1;
+  display: inline-block;
+  width: 190px;
+  margin: 0;
+}
+
+.qna-list__title--mb8 {
+  margin-bottom: 8px;
+}
+
+.qna-list__icon {
+  position: absolute;
+  top: 27px;
+  right: 20px;
+}
+
+.qna-list__icon--top20 {
+  top: 20px;
+}
+
+.qna-section__button {
+  @extend %mobile-button;
+  margin-bottom: 0;
+}

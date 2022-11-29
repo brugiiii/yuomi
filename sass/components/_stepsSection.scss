@@ -1,0 +1,44 @@
+.steps-section {
+  @include section;
+  padding-top: 40px;
+}
+
+.steps-section__title {
+  @include headline1($lh: 23px);
+  margin-bottom: 40px;
+
+  color: $accent-color;
+}
+
+.steps-list__item {
+  &:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}
+
+.steps-list__icon {
+  margin-bottom: 30px;
+}
+
+.steps-list__title {
+  @include subtitle1;
+  margin-bottom: 8px;
+}
+
+.steps-list__text {
+  margin-bottom: 51px;
+}
+
+.steps-section__icon {
+  margin-bottom: 15px;
+}
+
+.steps-section__remind-text {
+  width: 215px;
+  margin: 0 auto 40px;
+}
+
+.steps-section__button {
+  @extend %mobile-button;
+  margin-bottom: 60px;
+}

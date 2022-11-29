@@ -1,0 +1,21 @@
+@import "./base/variables";
+@import "./util/placeholders";
+@import "./util/mixins";
+@import "./components/globalStyles";
+@import "./components/buttons";
+@import "./components/burger.menu";
+@import "./components/container";
+
+// layout
+@import "./layout/pageHeader";
+@import "./layout/pageFooter";
+
+// sections
+@import "./components/heroSection";
+@import "./components/onlinePsyhoSection.scss";
+@import "./components/supportSection";
+@import "./components/benefits-section";
+@import "./components/stepsSection";
+@import "./components/qnaSection";
+@import "./components/careSection";
+@import "./components/extraHelpSection";

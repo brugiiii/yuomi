@@ -1,0 +1,41 @@
+.benefits-section {
+  @include section(left, 45px);
+  position: relative;
+}
+
+.benefits-section__subtitle {
+  @include subtitle1;
+  margin-bottom: 10px;
+}
+
+.benefits-section__title {
+  @include title1(18px, 23px);
+  margin-bottom: 21px;
+}
+
+.benefits-section__icon {
+  position: absolute;
+  top: 100px;
+  left: 161px;
+}
+
+.benefits-section__text {
+  @include pretitle(13px, 18px);
+  margin-bottom: 40px;
+}
+
+.content-thumb {
+  padding: 30px 20px;
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+.content-thumb__title {
+  @include headline2($lh: 25px, $ls: 0.01em);
+  margin-bottom: 8px;
+}
+
+.content-thumb__text {
+  margin-bottom: 0;
+}

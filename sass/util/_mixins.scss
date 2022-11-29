@@ -1,0 +1,56 @@
+@mixin section($ta: center, $pb: 50px) {
+  text-align: $ta;
+  padding-bottom: $pb;
+}
+
+@mixin title1($fz: 24px, $lh: 31px, $ls: 0.02em, $color: $accent-color) {
+  font-size: $fz;
+  line-height: calc($lh / $fz);
+  letter-spacing: $ls;
+
+  color: $color;
+}
+
+@mixin title2(
+  $fw: 800,
+  $fz: 20px,
+  $lh: 28px,
+  $ls: 0.02em,
+  $color: $accent-color
+) {
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: calc($lh / $fz);
+  letter-spacing: $ls;
+
+  color: $color;
+}
+
+@mixin headline1($fz: 18px, $lh: 27px, $ls: 0.02em) {
+  font-size: $fz;
+  line-height: calc($lh / $fz);
+  letter-spacing: $ls;
+}
+
+@mixin headline2($fw: 600, $fz: 18px, $lh: 27px, $ls: 0.02em) {
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: calc($lh / $fz);
+  letter-spacing: $ls;
+}
+
+@mixin subtitle1($fw: 600, $fz: 16px, $lh: 22px) {
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: calc($lh / $fz);
+}
+
+@mixin subtitle2($fz: 14px, $lh: 20px) {
+  font-size: $fz;
+  line-height: calc($lh / $fz);
+}
+
+@mixin pretitle($fz: 12px, $lh: 17px) {
+  font-size: $fz;
+  line-height: calc($lh / $fz);
+}
