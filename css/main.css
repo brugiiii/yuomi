@@ -410,6 +410,7 @@ p {
   text-align: center;
   padding-bottom: 50px;
   padding-top: 40px;
+  background-color: #f9fcff;
 }
 
 .steps-section__title {
@@ -470,6 +471,8 @@ p {
 .qna-list__item {
   position: relative;
   padding: 20px;
+  background-color: #f9fcff;
+  border-radius: 15px;
 }
 
 .qna-list__title {
@@ -612,4 +615,34 @@ p {
 
 .help-numbers-list__text {
   margin-bottom: 0;
+}
+
+.about-us-hero-section {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 47px;
+}
+
+.about-us-hero-section__title {
+  font-size: 24px;
+  line-height: 1.2916666667;
+  letter-spacing: 0.02em;
+  color: #7872b9;
+  position: relative;
+  margin-bottom: 41px;
+}
+.about-us-hero-section__title::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: -8px;
+  display: block;
+  width: 112px;
+  height: 45px;
+  background-image: url(../../images/Union.svg);
+}
+
+.about-us-hero-section__title-first-part {
+  display: inline-block;
+  margin-bottom: 13px;
 }/*# sourceMappingURL=main.css.map */

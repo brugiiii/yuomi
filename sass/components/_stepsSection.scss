@@ -1,6 +1,7 @@
 .steps-section {
   @include section;
   padding-top: 40px;
+  background-color: $main-bgc;
 }
 
 .steps-section__title {

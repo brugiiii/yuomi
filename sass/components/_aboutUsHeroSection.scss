@@ -1,0 +1,29 @@
+.about-us-hero-section {
+  @include section;
+  padding-top: 47px;
+}
+
+.about-us-hero-section__title {
+  @include title1;
+  position: relative;
+  margin-bottom: 41px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: -8px;
+
+    display: block;
+
+    width: 112px;
+    height: 45px;
+
+    background-image: url(../../images/Union.svg);
+  }
+}
+
+.about-us-hero-section__title-first-part {
+  display: inline-block;
+  margin-bottom: 13px;
+}
