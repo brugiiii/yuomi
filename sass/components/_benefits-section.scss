@@ -1,5 +1,8 @@
 .benefits-section {
   @include section(left, 45px);
+}
+
+.benefits-section__container {
   position: relative;
 }
 

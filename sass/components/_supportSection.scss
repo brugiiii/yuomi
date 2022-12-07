@@ -1,5 +1,8 @@
 .support-section {
   @include section($pb: 40px);
+}
+
+.support-section__container {
   position: relative;
 }
 

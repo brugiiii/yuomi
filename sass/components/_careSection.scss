@@ -1,6 +1,9 @@
 .care-section {
   @include section($ta: left);
   padding-top: 40px;
+}
+
+.care-section__container {
   position: relative;
 }
 
@@ -38,13 +41,13 @@
 
 .example-img-list__item {
   position: absolute;
-  top: 477px;
+  top: 437px;
   left: 65px;
 }
 
 .example-img-list__item--right {
   position: absolute;
-  top: 517px;
+  top: 477px;
   left: 170px;
 }
 

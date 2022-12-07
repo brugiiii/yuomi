@@ -1,12 +1,15 @@
 .extra-help-section {
   @include section($ta: left);
-  position: relative;
   padding-top: 20px;
+}
+
+.extra-help-section__conteiner {
+  position: relative;
 }
 
 .extra-help-section__icon {
   position: absolute;
-  top: 0;
+  top: -20px;
   right: 50px;
 }
 

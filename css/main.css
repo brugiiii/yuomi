@@ -101,6 +101,7 @@ p {
 
 .burger-menu.is-open {
   transform: translateX(-130%);
+  pointer-events: all;
 }
 
 .burger-menu {
@@ -293,6 +294,9 @@ p {
 .support-section {
   text-align: center;
   padding-bottom: 40px;
+}
+
+.support-section__container {
   position: relative;
 }
 
@@ -351,6 +355,9 @@ p {
 .benefits-section {
   text-align: left;
   padding-bottom: 45px;
+}
+
+.benefits-section__container {
   position: relative;
 }
 
@@ -496,6 +503,9 @@ p {
   text-align: left;
   padding-bottom: 50px;
   padding-top: 40px;
+}
+
+.care-section__container {
   position: relative;
 }
 
@@ -535,13 +545,13 @@ p {
 
 .example-img-list__item {
   position: absolute;
-  top: 477px;
+  top: 437px;
   left: 65px;
 }
 
 .example-img-list__item--right {
   position: absolute;
-  top: 517px;
+  top: 477px;
   left: 170px;
 }
 
@@ -552,13 +562,16 @@ p {
 .extra-help-section {
   text-align: left;
   padding-bottom: 50px;
-  position: relative;
   padding-top: 20px;
+}
+
+.extra-help-section__conteiner {
+  position: relative;
 }
 
 .extra-help-section__icon {
   position: absolute;
-  top: 0;
+  top: -20px;
   right: 50px;
 }
 
