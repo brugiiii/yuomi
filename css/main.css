@@ -33,7 +33,6 @@ body {
   line-height: 1.4285714286;
   letter-spacing: 0.01em;
   color: #4d4d52;
-  background-color: #f9fcff;
 }
 
 img {
@@ -159,6 +158,7 @@ p {
 
 .page-footer {
   padding: 40px 0;
+  background-color: #f9fcff;
 }
 
 .footer__logo {
@@ -468,11 +468,18 @@ p {
   text-align: center;
 }
 
+.qna-list {
+  margin-bottom: 40px;
+}
+
 .qna-list__item {
   position: relative;
   padding: 20px;
   background-color: #f9fcff;
   border-radius: 15px;
+}
+.qna-list__item:not(:last-child) {
+  margin-bottom: 25px;
 }
 
 .qna-list__title {
@@ -568,7 +575,7 @@ p {
   padding-top: 20px;
 }
 
-.extra-help-section__conteiner {
+.extra-help-section__container {
   position: relative;
 }
 
@@ -581,6 +588,8 @@ p {
 .extra-help-section__thumb {
   padding: 20px;
   padding-bottom: 50px;
+  background-color: #f9fcff;
+  border-radius: 15px;
 }
 
 .extra-help-section__title {

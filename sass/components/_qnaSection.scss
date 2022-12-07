@@ -9,12 +9,20 @@
   text-align: center;
 }
 
+.qna-list {
+  margin-bottom: 40px;
+}
+
 .qna-list__item {
   position: relative;
   padding: 20px;
 
   background-color: $main-bgc;
   border-radius: 15px;
+
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
 }
 
 .qna-list__title {

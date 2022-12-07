@@ -3,7 +3,7 @@
   padding-top: 20px;
 }
 
-.extra-help-section__conteiner {
+.extra-help-section__container {
   position: relative;
 }
 
@@ -16,6 +16,9 @@
 .extra-help-section__thumb {
   padding: 20px;
   padding-bottom: 50px;
+
+  background-color: $main-bgc;
+  border-radius: 15px;
 }
 
 .extra-help-section__title {
